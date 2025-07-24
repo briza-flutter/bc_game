@@ -25,7 +25,7 @@ export function submitUtr(orderId: string, utr: string) {
     `https://www.upi-payments.com/trade/cashier/submit/utr?userIdentify=${userId}&utr=${utr}&orderId=${orderId}`
   );
 }
-interface ICreateOrderResponse {
+export interface ICreateOrderResponse {
   orderId: string;
   tradeNo: string;
   method: string;
@@ -77,7 +77,7 @@ interface IData {
   instruction: null;
 }
 
-interface IChannelItem {
+export interface IChannelItem {
   supportCurrency: string;
   wayName: string;
   method: string;

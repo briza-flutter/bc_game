@@ -1,6 +1,7 @@
+
+import { writeFileSync } from "fs";
 import { createOrder, getChannel, submitUtr } from "./service";
 import { getRandomInt, randomPayCode } from "./utils/utils";
-
 // 这是一个非常基础的命令行参数解析
 const args = process.argv.slice(2);
 const command = args[0];
@@ -9,8 +10,9 @@ const command = args[0];
   switch (command) {
     case "getChannel":
       console.log("--- 开始获取支持的渠道 ---");
-      await getChannel();
-      console.log("--- 获取支持的渠道wanc ---");
+      const channel = await getChannel();
+      writeFileSync("./channel.json", JSON.stringify(channel, null, 2));
+      console.log("--- 写入文件成功 ---");
 
       break;
 
@@ -28,6 +30,7 @@ const command = args[0];
         const utr = randomPayCode();
 
         const res = await createOrder(params);
+
         console.log(params, utr, res.tradeNo);
 
         submitUtr(res.tradeNo, utr)
