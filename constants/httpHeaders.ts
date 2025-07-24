@@ -1,0 +1,10 @@
+export const userHeader = {
+  "content-type": "application/json",
+  "User-agent":
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+  "Sec-Ch-Ua-Platform": '"macOS"',
+  "Sec-Fetch-Mode": "cors",
+  Origin: "https://bc.game",
+};
+export const Cookie =
+  "smidV2=2025072118325553c8d92046c85da9838872afc7aac77b0068057314f840f90; _ga=GA1.1.1735522430.1753093981; _hjSessionUser_3056635=eyJpZCI6ImNkOGI4ZTJiLTYyYjYtNWU5NC1iMTg1LTgxNDBlZjQxYjdmYSIsImNyZWF0ZWQiOjE3NTMwOTQxMzI1OTcsImV4aXN0aW5nIjpmYWxzZX0=; _ga_7Q8ZMQJCT2=GS2.1.s1753148660$o2$g0$t1753148660$j60$l0$h0; _gcl_au=1.1.1529979987.1753093981.37489830.1753163731.1753166062; SESSION=01nzjxqaiilsmy19830d741703301fac93eff8596fa7922a7c; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2288923863%22%2C%22first_id%22%3A%221982c8b313813be-0e9d767bc03a6f-7e433c49-1930176-1982c8b31392b33%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTk4MmM4YjMxMzgxM2JlLTBlOWQ3NjdiYzAzYTZmLTdlNDMzYzQ5LTE5MzAxNzYtMTk4MmM4YjMxMzkyYjMzIiwiJGlkZW50aXR5X2xvZ2luX2lkIjoiODg5MjM4NjMifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%2288923863%22%7D%2C%22%24device_id%22%3A%221982c8b313813be-0e9d767bc03a6f-7e433c49-1930176-1982c8b31392b33%22%7D; __cf_bm=51.yN3RB5I0LzPahjcRXcigeVNVxaGNOdLNDy3taqFM-1753251768-1.0.1.1-YULPF8RD7jD6E89ExIQE_.ilbgDkeIrTMU0QGOxWVvWFiJHtjoNptL1avMccgw.9vYlUeVaXmUZfNJx3yvPAvMvi7sU0UrfYt.urb24SFBQ; visit-url=https%3A%2F%2Fbc.game%2Fen-IN%2F; .thumbcache_1f3830c3848041ef5612f684078f2210=maBzmsDbgithWRYbFMxMTswy5gx+Wl/dP1dH0s+Ab5xVcSzAAYHVmlBGzSK+S3Y3+uD5Jq7PBt2W2vuYOCNDEg%3D%3D; _ga_B23BPN2TGE=GS2.1.s1753251966$o8$g1$t1753252352$j33$l0$h0";
